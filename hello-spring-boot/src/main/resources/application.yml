@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /hh
+
+
+logging:
+  file: logs/spring-boot-hello.log
+  level.org.springframework.web: DEBUG
